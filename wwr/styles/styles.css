@@ -1,0 +1,109 @@
+#background {
+    height: 725px;
+}
+           
+body {
+    background-color: #fcfbfb; 
+    text-align: center;
+}
+header {
+    background-color: rgba(20,30,13, .7);
+}
+nav a:hover {
+    background-color: black;
+}
+.book {
+    background-color: none;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+} 
+.join {
+    background-color: #fcfbfb; 
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}
+
+.book:hover {
+    background-color: lightgrey; 
+    color: black;
+    
+}
+
+.join:hover {
+    background-color: #fcfbfb; 
+}
+
+#background {
+    background-color: #fcfbfb; 
+}
+
+.msg {
+    background-color: #fcfbfb; 
+}
+
+footer {
+    background-color: #fcfbfb; 
+}
+
+nav a {
+    background-color: rgba(20,30,13, .7);
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}
+.home-title {
+    background-color: none;
+    color: #d9c2a3;
+    text-align: center;
+}
+h4 {
+    background-color: none;
+    color: #d9c2a3;
+}
+.msg h2 {
+    background-color: none;
+    color: #d9c2a3;
+}
+.msg p {
+    background-color:none;
+    color: #d9c2a3;
+}
+footer a {
+    background-color: none;
+    color: #d9c2a3;
+    text-align: center;
+    text-decoration: none;
+}
+footer a:hover {
+    background-color: black;
+    color: #d9c2a3;
+}
+.icon {
+    width: 80px;
+}
+.logo {
+    width: 80px;
+}
+#hero-img {
+    width: 100%;
+}
+.rivers-card {
+    width: 80px;
+}
+.camping-card {
+    width: 80px;
+}
+.rapids-card {
+    width: 80px;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hover { 
+    text-decoration: underline;
+}
+main section {
+    text-align: center;
+}
