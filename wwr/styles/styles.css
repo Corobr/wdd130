@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Poppins:wght@300;400;600&display=swap');
 #content{
     max-width: 1600px;
     margin: 0 auto;
+    font-family: 'Poppins', 'helvetica';
 }
 nav a{
     text-align: center;
     color: whitesmoke;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1{
     text-align: center;
@@ -25,6 +28,9 @@ main section{
 }
 body{
     background-color:#7F7979;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color:#3D3B3C;
@@ -37,11 +43,19 @@ nav a:hover{
     background-color:whitesmoke;
     color:#323031;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join{
     background-color:#7F7979;
     color:whitesmoke;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover{
     background-color:#7F7979;
@@ -53,22 +67,32 @@ nav a:hover{
 }
 .msg{
     background-color:whitesmoke;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color:#3D3B3C;
     color:whitesmoke;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title{
     color:whitesmoke;
+    font-family: 'Oswald', 'helvetica';
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color:whitesmoke;
 }
 .msg h2{
     color:#323031;
+    font-family: 'Oswald', 'helvetica';
 }
 .msg p{
     color:#323031;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer a{
     color:whitesmoke;
@@ -81,7 +105,7 @@ footer a:hover{
     width: 80px;
 }
 .icon{
-
+    padding-top: 10px;
 }
 #hero-img{
     width: 100%;
@@ -92,4 +116,28 @@ footer p{
 }
 footer p a:hover{
     text-decoration: underline;
+}
+h2{
+    margin:0;
+}
+#logo-link{
+    padding-top: 5px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card{
+    margin: 200px 0;
+}
+.camping-card{
+    margin: 200px 0;
+}
+.rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid black;
+}
+main section img{
+    box-sizing: border-box;
 }
